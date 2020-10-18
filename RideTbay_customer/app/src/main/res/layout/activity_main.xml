@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgimage"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/img_Logo"
+            android:layout_width="283dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/logo_capstoneproject"
+            android:contentDescription="@string/logo_of_the_app" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="400dp"
+        >
+
+        <Button
+            android:id="@+id/btn_GetStarted"
+            android:layout_width="0dp"
+            android:layout_height="62dp"
+            android:layout_weight="3"
+            android:backgroundTint="#5c1903"
+            android:text="@string/get_started"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+
